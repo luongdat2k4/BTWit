@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/src/main.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <Style>
+    .quick-example{
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 10px;
+
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 500ms;
+    }
+
+    .quick-example > div{
+      overflow: hidden;
+    }
+
+    .quick-example:hover{
+      grid-template-rows: 1fr;
+    }
+
+
+  </Style>
+
+</head>
+<body>
+
+  <!-- 
+
+  <div class="quick-example">
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis minima illum eligendi quam
+       asperiores cumque qui repellendus vel magni aliquam 
+       odit excepturi, ex voluptate facilis rem nam quasi fugit minus.
+    </div>
+  </div>  
+
+-->
+
+  <!-- <div>
+    <button>
+      <i class='bx bx-menu' ></i>
+    </button>
+  </div>
+
+  <div class="menu-scoll">
+    <div class="menu">
+        
+    </div>
+  </div> -->
+
+  
+
+  <div class="accordion">
+
+    <div class="accordion-panel">
+      <h2 id="panel1-title">
+        <button class="accordion-trigger" aria-expanded="true" aria-controls="accordion1-content">
+          Lịch sử hình thành của CLB
+          <i class='bx bx-chevron-up rotate'></i>
+        </button>
+      </h2>
+      <div class="accordion-content" role="region" aria-labelledby="panel1-title" aria-hidden="false" id="panel1-content">
+        <div>
+          <p>IT PTIT Club là câu lạc bộ học thuật trực thuộc khoa CNTT 1 của Học viện Công nghệ Bưu chính Viễn thông. 
+            CLB được hình thành từ sự hợp nhất của 2 CLB kỳ cựu nhất trong Học viện là CLB SRC PTIT và một số thành viên của CLB lập trình Pro PTIT vào năm 2013. 
+            Sau 10 năm hợp nhất, IT PTIT đã đạt được rất nhiều thành công lớn.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-panel">
+      <h2 id="panel1-title">
+        <button class="accordion-trigger" aria-expanded="true" aria-controls="accordion1-content">
+          CLB có chức năng gì?
+          <i class='bx bx-chevron-up rotate'></i>
+        </button>
+      </h2>
+      <div class="accordion-content" role="region" aria-labelledby="panel1-title" aria-hidden="false" id="panel1-content">
+        <div>
+          <ul>
+            <li>Gắn kết các thành viên CLB với Khoa CNTT và Học viện. Kết nối sinh viên với các cuộc thi và giới thiệu các cơ hội nghề nghiệp.</li>
+            <li>Là môi trường học tập sáng tạo, năng động, giúp đỡ thành viên CLB đạt thành tích cao trong học tập, phát triển tốt các kỹ năng chuyên môn.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-panel">
+      <h2 id="panel1-title">
+        <button class="accordion-trigger" aria-expanded="true" aria-controls="accordion1-content">
+          CLB có nhiệm vụ gì?
+          <i class='bx bx-chevron-up rotate'></i>
+        </button>
+      </h2>
+      <div class="accordion-content" role="region" aria-labelledby="panel1-title" aria-hidden="false" id="panel1-content">
+        <div>
+          <ul>
+            <li>Hỗ trợ phát triển tư duy và kĩ năng lập trình.</li>
+            <li>Phối hợp với khoa CNTT1 tổ chức các chương trình giao lưu, cuộc thi cho sinh viên.</li>
+            <li>Tổ chức các hội thảo chuyên đề giúp các thành viên có cơ hội tiếp xúc với diễn giả uy tín.</li>
+            <li>Tổ chức các hoạt động sự kiện, giải đấu giúp gắn kết các thành viên trong CLB.</li>
+            <li>Mở rộng tìm kiếm và tham gia các cuộc thi có phạm vi ngoài Học viện.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script src="/src/index.js"></script>
+</body>
+</html>
